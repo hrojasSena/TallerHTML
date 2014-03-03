@@ -1,0 +1,144 @@
+body
+{
+	font-family: Arial;
+	font-size: :16px;
+}
+
+header
+{
+	background: #DDDDDD;
+	color: #066138;
+	overflow: hidden;
+	padding-top: .7em;
+}
+
+header figure
+{
+	float: left;
+}
+
+header h1
+{
+	-webkit-margin-before:1.3em;
+	-webkit-margin-after:0em;
+	margin-top:1.3em;
+	margin-bottom:0em;
+}
+
+header h2
+{
+	-webkit-margin-before:0em;
+	margin-top:0em;
+
+}
+
+body #menu
+{
+	background: #F99E4D;
+	background:-webkit-gradient(linear, 0% 100%, 0% 46%, from(#F69F52), to(#EA8A47));
+	margin-left: 2.5em;
+	margin-right: 2.5em;
+	-moz-box-shadow: 7px 6px 18px #000000;
+   	-webkit-box-shadow: 7px 6px 18px #000000;
+	box-shadow: 7px 6px 18px #000000;
+	position: relative;
+}
+
+body #menu ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+body #menu ul li
+{
+	display: inline-block;	
+	border-left: 1px solid #E18E42;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+body #menu ul li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 0.5em 0;
+	display: block;	
+	margin: 0.3em 0.3em 0.3em 0.3em;
+}
+
+footer
+{
+	background: #F99E4D;
+	background:-webkit-gradient(linear, 0% 100%, 0% 46%, from(#F69F52), to(#EA8A47));
+	margin-left: 0em;
+	color: white;
+	text-align: center;
+	padding: 1.5em;
+}
+
+footer p:first-child
+{
+	margin-bottom: 0;
+}
+
+footer p:last-child
+{
+	margin-top: 0;
+}
+
+#principal
+{
+	margin: 1em;	
+	margin-left: 2.5em;
+	margin-right: 2.5em;
+}
+
+#principal .articulo
+{
+	border-top: 1px solid #999999;
+	min-height: 160px;	
+	margin-bottom: 1em;	 
+	padding-top: 1.5em;
+	position: relative;
+}
+
+#principal .articulo .cantidad_oa
+{
+	color: #22BCE0;
+	display: inline-block;
+}
+
+#principal .articulo .titulo_articulo
+{
+	margin: 0;
+}
+
+#principal .articulo .resumen_articulo
+{
+	margin-top: 0.5em;
+}
+
+#principal .articulo .imagen_articulo
+{
+	float: left;
+	margin: 0 1em 0 0;
+}
+
+#principal .articulo .pie_articulo
+{
+	position: relative;
+	margin-left: 1em;
+}
+
+#principal .articulo .pie_articulo button
+{
+	border-radius: 0.5em;
+	padding: 0.3em 1.5em;
+	color: white;
+	background: #00CEF8;
+	background:-webkit-gradient(linear, 0% 100%, 0% 46%, from(#0AAEB0), to(#00CEF8));
+	border: 0;
+	float: right;
+}

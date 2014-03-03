@@ -1,0 +1,64 @@
+<p class="resaltar">Texto a resaltar...</p>
+
+body {
+ color : #666;
+ ba 
+}
+
+background : color | image | repeat | attachment | position ;
+
+/* links normales */
+a:link {
+    text-decoration: none;
+color: #00a;
+}
+/* visitados */
+a:visited {
+color: #a00;
+}
+/* hover */
+a:hover {
+    text-decoration: underline;
+}
+/* activos */
+a:active {
+    font-weight: bold;
+}
+
+body {
+    text-align: center;
+}
+#contenedor {
+    width: 700px;
+    margin: 0px auto;
+    text-align: left;
+}
+
+#sidebar {
+    width: 200px;
+    padding: 10px;
+    float: left;
+
+    border-radius:15px 0px 25px 0px;
+
+    /*border-y-x-radius: valor;*/
+	border-top-left-radius: 15px; 
+	/*Equivale a:*/
+	border-radius: 15px 0px 0px 0px;
+
+	p span { color: red; }
+}
+
+p span { color: red; }
+
+/* Todos los elementos de tipo "p" con atributo class="aviso" */
+p.aviso { ... }
+ 
+/* Todos los elementos con atributo class="aviso" que estén dentro
+   de cualquier elemento de tipo "p" */
+p .aviso { ... }
+ 
+/* Todos los elementos "p" de la página y todos los elementos con
+   atributo class="aviso" de la página */
+p, .aviso { ... }
+
